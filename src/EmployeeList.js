@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Employee from "./Employee";
 
 function EmployeeList() {
@@ -47,7 +47,7 @@ function EmployeeList() {
                 Add Employee
             </button>
             {employees.map((employee) => (
-                <Employee EmployeeData={employee} />
+                <Employee key={employee.name} EmployeeData={employee} />
             ))}
         </div>
     );

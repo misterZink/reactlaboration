@@ -1,7 +1,7 @@
 function Employee({ EmployeeData }) {
     return (
         <div className="EmployeeDiv">
-            <img src={EmployeeData.avatar} className="avatar" />
+            <img src={EmployeeData.avatar} className="avatar" alt="Profilepicture" />
             <div>
                 <h2>{EmployeeData.name}</h2>
                 <p>
