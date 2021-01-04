@@ -1,10 +1,11 @@
+import EmployeeList from "./EmployeeList";
 
 function App() {
-  return (
-    <div>
-      Hello world
-    </div>
-  );
+    return (
+        <div>
+            <EmployeeList />
+        </div>
+    );
 }
 
 export default App;
